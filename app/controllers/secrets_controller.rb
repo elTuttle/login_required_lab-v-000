@@ -18,5 +18,5 @@ class SecretsController < ApplicationController
     end
     redirect_to '/'
   end
-  
+
 end
