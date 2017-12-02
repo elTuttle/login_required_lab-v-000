@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get '/login', to: 'sessions#new'
 
-  post '/sessions/create', to: 'session#create' 
-  post '/sessions/destroy', to: 'session#create' 
+  post '/sessions/create', to: 'session#create'
+  post '/sessions/destroy', to: 'session#destroy'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
