@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  before_action :
+  before_action :require_login
 
   private
 
